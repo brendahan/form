@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title><link rel="stylesheet" href="form.css" >
 </head>
-<body>
+<body><div class="container">
     <h1>Survey Form</h1>
     <h2>How was the show?</h2>
    <div class="box1"><p><i>We would like to appreciate you for the love and support you showed us when you attended the KATENGO show at Masengere. <br>Please take a minute and give us feedback on how the experience was for you below. </i></p><hr></div>
 <form id="contact-form" action="javascript" method="post">
     <div class="contact-form"><p><b>Contact Information</b></p>
-        <label> Name</label>
-    <input type="text" placeholder="Enter your First name"name="fname">
-    <label> </label>
-    <input type="text" placeholder="Enter your Last name"name="lname">
+    <label> First Name</label>
+    <br><input type="text" placeholder="Your First name.."name="fname">
+    <br><label> Last Name</label>
+    <br><input type="text" placeholder="Your Last name.."name="lname">
     <br><label> Email</label>
-    <input type="email" placeholder="Enter your email"name="email">
-    <br><label> Gender</label<br>
+    <br><input type="email" placeholder="Enter your email"name="email">
+    <br><label><b>Gender</b></label<br>
 <input type="radio" name="gender" value="Male">Male
 <input type="radio" name="gender" value="Female">Female
 <p><b>Please rate the Quality of the show</b></p>
@@ -36,7 +36,7 @@
 <input type="checkbox" name="International collabo" value="International collabo" >International collabo
 <P><b>Do you have anything you would like to share with us?</b></P>
 <textarea name="message" placeholder="Write a message"></textarea>
-    <br><div class="button"><button type="submit">Submit Feedback</button></div><hr>
-</div>
+<br><input type="button" name="Submit" value="Submit Feedback"><hr>
+</div></div>
 </body>
 </html>

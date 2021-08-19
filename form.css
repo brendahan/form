@@ -6,7 +6,7 @@ body{
     background-color: #040d36; 
     color: #FFFFFF;
     margin: 0;
-    font: normal 16px arial, helvetica, serif;
+    font: normal 16px serif;
     line-height: 1.6em;
 }
 .box1 p{
@@ -16,14 +16,15 @@ body{
     border-radius: 10px;
 
 }
-h1{
+h1, h2{
     text-align: center;
     color:#2aad91;
     padding-top: 10px;
 }
-h2{
-    text-align: center;
-    color: #2aad91;
+
+.container {
+    width: 100%;
+    margin:0;
 }
 .contact-form{
     background-color: #2aad91;
@@ -36,13 +37,7 @@ h2{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.submit{
-    color: #FFFFFF;
-    
-}
-.email{
-    border-radius: 10px;
-}
+
 .button{
     background-color:#FFFFFF ;
     margin-left: 300px;
@@ -58,4 +53,45 @@ h2{
     transition-duration: 0.4s;
     background-color:#040d36;
     color: white;
+}
+input[type=email],[type=text]{
+    width: 40%;
+    border-radius: 5px;
+    font-size: small;
+    box-sizing: border-box;
+    padding: 8px 20px;
+    margin: 1px 0px;
+    border: 2px solid red;
+}
+
+input[type=button]{
+    background-color:#040d36 ;
+    color:#FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 2px;
+    cursor: pointer;
+    font-size: large;
+}
+input[type=radio],[type=checkbox]{
+    width: 05%;
+}
+
+select{
+    width: 40%;
+    border-radius: 5px;
+    font-size: small;
+    box-sizing: border-box;
+    padding: 8px 20px;
+    margin: 1px 0px;
+    border: 2px solid red;
+}
+textarea{
+    width: 50%;
+    height: 100px;
+    padding: 5px 10px;
+    margin: 1px 0px;
+    resize: none;
 }
